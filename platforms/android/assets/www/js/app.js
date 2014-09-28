@@ -1,4 +1,4 @@
-angular.module('HomeJS', ['ngRoute', 'HomeJS.services', 'HomeJS.controllers'])
+angular.module('HomeJS', ['ngRoute', 'HomeJS.services', 'HomeJS.controllers', 'firebase'])
     .config(function ($routeProvider) {
         $routeProvider
         .when('/', {
