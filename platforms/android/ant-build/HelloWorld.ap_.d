@@ -49,6 +49,7 @@
 /Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/js/controllers.js \
 /Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/js/index.js \
 /Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/js/services.js \
+/Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/js/switches.js \
 /Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/lib/angular \
 /Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/lib/angular/angular-route.js \
 /Users/Aaron/code/personal_projects/android/HomeJS/platforms/android/assets/www/lib/angular/angular.js \
