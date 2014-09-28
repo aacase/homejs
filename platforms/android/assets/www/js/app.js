@@ -2,7 +2,7 @@ angular.module('HomeJS', ['ngRoute', 'HomeJS.services', 'HomeJS.controllers', 'f
     .config(function ($routeProvider) {
         $routeProvider
         .when('/', {
-            controller: 'MainCtrl',
+            controller: 'ItemsController',
             templateUrl: 'partials/main.html'
         })
         .when('/view', {
