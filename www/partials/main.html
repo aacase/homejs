@@ -1,1 +1,47 @@
-<h2> Main View: {{ status }} </h2>
+<div ng-controller="ItemsController">
+  <h1>Your Connected Items</h1>
+  
+  <table class= 'table' border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Location
+        </th>
+        <th>
+          Title
+        </th>
+        <th>
+          Current State
+        </th>
+      </tr>
+    </thead>
+    <body>
+      <tr ng-repeat="item in items">
+        <td>
+          {{ item.name }}
+        </td>
+        <td>
+          {{ item.location }}
+        </td>
+        <td>
+          {{ item.title }}
+        </td>
+        <td>
+          
+          <div class="onoffswitch">
+            <input type="checkbox" class="onoffswitch-checkbox" id="{{item.name}}" name="{{item.name}}" ng-model="item.state" ng-true-value="on" ng-false-value="off" ng-change="saveChange(item)"/>
+            <label class="onoffswitch-label" for="{{item.name}}">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+          <!-- </div> -->
+          
+        </td>
+      </tr>
+    </body>
+  </table>
+</div>
