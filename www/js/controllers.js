@@ -11,7 +11,7 @@ angular.module('HomeJS.controllers', [])
 
       $scope.addItem = function(text, text2, text3) {
         
-        $scope.items.$add({name: text, location: text2, title: text3, state: "off"});
+        $scope.items.$add({name: text, location: text2, title: text3, state: false});
       }
 
 
